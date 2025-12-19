@@ -1,10 +1,10 @@
-# AI Modules - Deep Learning & Machine Learning Projects
+﻿# AI Modules - Deep Learning & Machine Learning Projects
 
 A collection of production-ready AI modules for computer vision, natural language processing, and video compression tasks using deep learning, transfer learning, and classical ML techniques.
 
 ##  Project Structure
 
-\\\
+```
 AI-Modules/
  face_recognition/
     face_verification.py    # VGGFace-based face verification module
@@ -20,7 +20,7 @@ AI-Modules/
         Report_1.pdf        # Eigenface PCA compression report
  requirements.txt
  README.md
-\\\
+```
 
 ##  Modules
 
@@ -34,7 +34,7 @@ Binary classification module for face verification using pretrained VGGFace arch
 - Comprehensive evaluation metrics
 
 **Key Components:**
-- Custom \FaceDataset\ class for data loading
+- Custom `FaceDataset` class for data loading
 - VGGFace architecture implementation
 - Training, validation, and evaluation functions
 - Configurable data augmentation pipeline
@@ -51,7 +51,7 @@ Multi-class emotion classifier for detecting 4 emotions: Angry, Happy, Neutral, 
 - Confusion matrix visualization
 
 **Key Components:**
-- \EmotionDataset\ with optional face detection
+- `EmotionDataset` with optional face detection
 - Custom EmotionCNN architecture
 - ResNet-based transfer learning model
 - Comprehensive evaluation and visualization tools
@@ -72,9 +72,9 @@ Character-level n-gram language model for text prediction and word completion.
 - Probability-based word ranking
 
 **Usage:**
-\\\ash
+```bash
 python user_interface.py <path_to_training_corpus> [--auto]
-\\\
+```
 
 ### 4. Eigenface-based Video Compression (PCA)
 Video compression implementation using Principal Component Analysis and eigenface techniques.
@@ -86,19 +86,19 @@ Video compression implementation using Principal Component Analysis and eigenfac
 
 ##  Installation
 
-\\\ash
+```bash
 # Clone the repository
 git clone https://github.com/ViralOnGit/AI-Modules.git
 cd AI-Modules
 
 # Install dependencies
 pip install -r requirements.txt
-\\\
+```
 
 ##  Dataset Structure
 
 ### Face Verification
-\\\
+```
 dataset/
  train/
     your_face/
@@ -110,10 +110,10 @@ dataset/
  test/
      your_face/
      not_your_face/
-\\\
+```
 
 ### Emotion Recognition
-\\\
+```
 dataset/
  train/
     Angry/
@@ -125,7 +125,7 @@ dataset/
      Happy/
      Neutral/
      Sad/
-\\\
+```
 
 ##  Model Performance
 
@@ -153,3 +153,7 @@ dataset/
 - **Comprehensive Metrics**: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
 - **NLP Capabilities**: N-gram language modeling and text prediction
 - **Compression Techniques**: PCA-based video compression using eigenface methods
+
+##  License
+
+This project is open source and available for educational purposes.
