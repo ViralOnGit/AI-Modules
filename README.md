@@ -1,6 +1,4 @@
-﻿# AI Modules - Deep Learning & Machine Learning Projects
-
-A collection of production-ready AI modules for computer vision, natural language processing, and video compression tasks using deep learning, transfer learning, and classical ML techniques.
+﻿# AI Modules
 
 ##  Project Structure
 
@@ -84,16 +82,6 @@ Video compression implementation using Principal Component Analysis and eigenfac
 - Eigenface method for video compression
 - Visual quality preservation with reduced data size
 
-##  Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/ViralOnGit/AI-Modules.git
-cd AI-Modules
-
-# Install dependencies
-pip install -r requirements.txt
-```
 
 ##  Dataset Structure
 
@@ -154,6 +142,4 @@ dataset/
 - **NLP Capabilities**: N-gram language modeling and text prediction
 - **Compression Techniques**: PCA-based video compression using eigenface methods
 
-##  License
 
-This project is open source and available for educational purposes.
